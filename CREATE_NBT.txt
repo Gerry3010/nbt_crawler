@@ -1,0 +1,205 @@
+Entity NBT Tags:
+create:funnel
+{'TransferCooldown': <TAG_Int('TransferCooldown') at 0x7f77fb0419d0>, 'Filter': <TAG_Compound('Filter') at 0x7f77fb11f610>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f781bcc4950>, 'x': <TAG_Int('x') at 0x7f77fb041bf0>, 'y': <TAG_Int('y') at 0x7f77fb06cf50>, 'FilterAmount': <TAG_Int('FilterAmount') at 0x7f77fb06d150>, 'z': <TAG_Int('z') at 0x7f77fb13f4d0>, 'id': create:funnel, 'UpTo': <TAG_Byte('UpTo') at 0x7f77fb053050>}
+---
+create:depot
+{'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fb0528d0>, 'x': <TAG_Int('x') at 0x7f77fb0b7ed0>, 'y': <TAG_Int('y') at 0x7f77fb0b7f50>, 'z': <TAG_Int('z') at 0x7f77fb079e80>, 'id': create:depot, 'OutputBuffer': <TAG_Compound('OutputBuffer') at 0x7f77fb044bb0>}
+---
+create:copycat
+{'Item': <TAG_Compound('Item') at 0x7f7818de68f0>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fb052630>, 'x': <TAG_Int('x') at 0x7f77fb052930>, 'y': <TAG_Int('y') at 0x7f77fb052570>, 'Material': <TAG_Compound('Material') at 0x7f7818dd5610>, 'z': <TAG_Int('z') at 0x7f77fb052e10>, 'id': create:copycat}
+---
+create:deployer
+{'Speed': <TAG_Float('Speed') at 0x7f77fb11b620>, 'Owner': <TAG_Int_Array('Owner') at 0x7f77fb11b770>, 'Mode': USE, 'FilterAmount': <TAG_Int('FilterAmount') at 0x7f77fb053350>, 'Overflow': 0 entries of type _TAG_End, 'HeldItem': <TAG_Compound('HeldItem') at 0x7f77fb05bcd0>, 'Timer': <TAG_Int('Timer') at 0x7f77fb0533b0>, 'Filter': <TAG_Compound('Filter') at 0x7f77fb05bee0>, 'State': WAITING, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fb053650>, 'x': <TAG_Int('x') at 0x7f77fb0535f0>, 'y': <TAG_Int('y') at 0x7f77fb053590>, 'z': <TAG_Int('z') at 0x7f77fb053710>, 'id': create:deployer, 'Powered': <TAG_Byte('Powered') at 0x7f77fb0537d0>, 'Inventory': 1 entries of type TAG_Compound, 'UpTo': <TAG_Byte('UpTo') at 0x7f77fb053830>}
+---
+create:belt
+{'Speed': <TAG_Float('Speed') at 0x7f77fb064e90>, 'IsController': <TAG_Byte('IsController') at 0x7f77fb0b8230>, 'Length': <TAG_Int('Length') at 0x7f77fb0b81d0>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fb0b8290>, 'x': <TAG_Int('x') at 0x7f77fb0b82f0>, 'y': <TAG_Int('y') at 0x7f77fb0b8350>, 'Index': <TAG_Int('Index') at 0x7f77fb0b83b0>, 'z': <TAG_Int('z') at 0x7f77fb0b8410>, 'id': create:belt, 'Controller': <TAG_Compound('Controller') at 0x7f77fb0b84d0>, 'Casing': ANDESITE, 'Covered': <TAG_Byte('Covered') at 0x7f77fb0b8710>}
+---
+create:encased_shaft
+{'Speed': <TAG_Float('Speed') at 0x7f77fb17deb0>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fb0b9250>, 'x': <TAG_Int('x') at 0x7f77fb0b9310>, 'y': <TAG_Int('y') at 0x7f77fb0b9370>, 'z': <TAG_Int('z') at 0x7f77fb0b93d0>, 'id': create:encased_shaft}
+---
+create:redstone_link
+{'Transmit': <TAG_Int('Transmit') at 0x7f77fb0ba630>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fb0ba510>, 'Transmitter': <TAG_Byte('Transmitter') at 0x7f77fb0ba690>, 'Receive': <TAG_Int('Receive') at 0x7f77fb0ba6f0>, 'ReceivedChanged': <TAG_Byte('ReceivedChanged') at 0x7f77fb0ba750>, 'x': <TAG_Int('x') at 0x7f77fb0ba7b0>, 'y': <TAG_Int('y') at 0x7f77fb0ba810>, 'LastKnownPosition': <TAG_Long('LastKnownPosition') at 0x7f77fb11b8c0>, 'z': <TAG_Int('z') at 0x7f77fb0ba8d0>, 'id': create:redstone_link, 'FrequencyFirst': <TAG_Compound('FrequencyFirst') at 0x7f77fb0ba930>, 'FrequencyLast': <TAG_Compound('FrequencyLast') at 0x7f77fb0ba990>}
+---
+create:chute
+{'Item': <TAG_Compound('Item') at 0x7f77fb0a71d0>, 'Pull': <TAG_Float('Pull') at 0x7f77fb173520>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fb0a7350>, 'BottomAirFlowDistance': <TAG_Float('BottomAirFlowDistance') at 0x7f7818dd6450>, 'x': <TAG_Int('x') at 0x7f77fb0a72f0>, 'y': <TAG_Int('y') at 0x7f77fb0a7050>, 'z': <TAG_Int('z') at 0x7f77fb0a73b0>, 'id': create:chute, 'Push': <TAG_Float('Push') at 0x7f7818dd6510>, 'ItemPosition': <TAG_Float('ItemPosition') at 0x7f77fb05bd80>}
+---
+create:chain_conveyor
+{'Connections': 1 entries of type TAG_Compound, 'Speed': <TAG_Float('Speed') at 0x7f77fb074730>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fb0b0710>, 'Network': <TAG_Compound('Network') at 0x7f77fb0b0590>, 'x': <TAG_Int('x') at 0x7f77fb0b0950>, 'TravellingPackages': 1 entries of type TAG_Compound, 'y': <TAG_Int('y') at 0x7f77fb0b0a10>, 'z': <TAG_Int('z') at 0x7f77fb0b09b0>, 'id': create:chain_conveyor, 'LoopingPackages': 0 entries of type _TAG_End, 'Source': <TAG_Compound('Source') at 0x7f77fb0b0cb0>}
+---
+create:water_wheel
+{'Speed': <TAG_Float('Speed') at 0x7f77fb07a0b0>, 'Owner': <TAG_Int_Array('Owner') at 0x7f77fb065220>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fb0b36b0>, 'Network': <TAG_Compound('Network') at 0x7f77fb0b35f0>, 'x': <TAG_Int('x') at 0x7f77fb0b3710>, 'y': <TAG_Int('y') at 0x7f77fb0b3950>, 'Material': <TAG_Compound('Material') at 0x7f77fb0b3890>, 'z': <TAG_Int('z') at 0x7f77fb0b39b0>, 'id': create:water_wheel, 'FlowScore': <TAG_Int('FlowScore') at 0x7f77fb0b3a10>}
+---
+create:item_vault
+{'LastKnownPos': <TAG_Compound('LastKnownPos') at 0x7f77fb0dd430>, 'StorageType': CombinedInv, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fb0dd670>, 'x': <TAG_Int('x') at 0x7f77fb0dd610>, 'y': <TAG_Int('y') at 0x7f77fb0dd6d0>, 'z': <TAG_Int('z') at 0x7f77fb0dd730>, 'id': create:item_vault, 'Controller': <TAG_Compound('Controller') at 0x7f77fb0dd7f0>, 'Inventory': <TAG_Compound('Inventory') at 0x7f77fb0dd850>}
+---
+create:package_frogport
+{'Target': <TAG_Compound('Target') at 0x7f77fb0bcbf0>, 'AcceptsPackages': <TAG_Byte('AcceptsPackages') at 0x7f77fb0bcb30>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fb0bcef0>, 'AddressFilter': Main, 'x': <TAG_Int('x') at 0x7f77fb0bcf50>, 'PlacedYaw': <TAG_Float('PlacedYaw') at 0x7f77fb0bcfb0>, 'y': <TAG_Int('y') at 0x7f77fb0bd010>, 'z': <TAG_Int('z') at 0x7f77fb0bd070>, 'id': create:package_frogport, 'Inventory': <TAG_Compound('Inventory') at 0x7f77fb0bd130>}
+---
+create:item_hatch
+{'Filter': <TAG_Compound('Filter') at 0x7f77fb0cfc50>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fb0cfb90>, 'x': <TAG_Int('x') at 0x7f77fb0cfdd0>, 'y': <TAG_Int('y') at 0x7f77fb0cfd70>, 'FilterAmount': <TAG_Int('FilterAmount') at 0x7f77fb0cfe30>, 'z': <TAG_Int('z') at 0x7f77fb0cfe90>, 'id': create:item_hatch, 'UpTo': <TAG_Byte('UpTo') at 0x7f77fb0cff50>}
+---
+create:packager_link
+{'Added': <TAG_Byte('Added') at 0x7f77fb0ada30>, 'PlacedBy': <TAG_Int_Array('PlacedBy') at 0x7f77fb17e0f0>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fb0ada90>, 'x': <TAG_Int('x') at 0x7f77fb0ad970>, 'Freq': <TAG_Int_Array('Freq') at 0x7f77fb042360>, 'y': <TAG_Int('y') at 0x7f77fb0adb50>, 'z': <TAG_Int('z') at 0x7f77fb0adaf0>, 'id': create:packager_link, 'Power': <TAG_Int('Power') at 0x7f77fb0adc10>}
+---
+create:encased_cogwheel
+{'Speed': <TAG_Float('Speed') at 0x7f77fb0ae450>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fb0ae4b0>, 'Network': <TAG_Compound('Network') at 0x7f77fb0ae7b0>, 'x': <TAG_Int('x') at 0x7f77fb0ae750>, 'y': <TAG_Int('y') at 0x7f77fb0ae990>, 'z': <TAG_Int('z') at 0x7f77fb0ae8d0>, 'id': create:encased_cogwheel, 'Source': <TAG_Compound('Source') at 0x7f77fb0aea50>}
+---
+create:packager
+{'InsertedBox': <TAG_Compound('InsertedBox') at 0x7f77fb0af2f0>, 'SignAddress': , 'QueuedExitingPackages': 0 entries of type _TAG_End, 'HeldBox': <TAG_Compound('HeldBox') at 0x7f77fb0e9190>, 'AnimationInward': <TAG_Byte('AnimationInward') at 0x7f77fb0e91f0>, 'LastSummary': <TAG_Compound('LastSummary') at 0x7f77fb0e9370>, 'Active': <TAG_Byte('Active') at 0x7f77fb0e9310>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fb0e9430>, 'AnimationTicks': <TAG_Int('AnimationTicks') at 0x7f77fb0e93d0>, 'x': <TAG_Int('x') at 0x7f77fb0e7fb0>, 'y': <TAG_Int('y') at 0x7f77fb0c0050>, 'z': <TAG_Int('z') at 0x7f77fb0c00b0>, 'id': create:packager}
+---
+create:encased_large_cogwheel
+{'Speed': <TAG_Float('Speed') at 0x7f77fb0d8c50>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fb0d8b90>, 'Network': <TAG_Compound('Network') at 0x7f77fb0d8cb0>, 'x': <TAG_Int('x') at 0x7f77fb0d8d10>, 'y': <TAG_Int('y') at 0x7f77fb0d8ef0>, 'z': <TAG_Int('z') at 0x7f77fb0d8e30>, 'id': create:encased_large_cogwheel, 'Source': <TAG_Compound('Source') at 0x7f77fb0d8fb0>}
+---
+create:simple_kinetic
+{'Speed': <TAG_Float('Speed') at 0x7f77fb08ffb0>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fb08fef0>, 'Network': <TAG_Compound('Network') at 0x7f77fb091eb0>, 'x': <TAG_Int('x') at 0x7f77fb091e50>, 'y': <TAG_Int('y') at 0x7f77fb092090>, 'z': <TAG_Int('z') at 0x7f77fb091fd0>, 'id': create:simple_kinetic, 'Source': <TAG_Compound('Source') at 0x7f77fb092150>}
+---
+create:gearshift
+{'Speed': <TAG_Float('Speed') at 0x7f77fb0a0410>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fb0a0290>, 'Network': <TAG_Compound('Network') at 0x7f77fb0a04d0>, 'x': <TAG_Int('x') at 0x7f77fb0a0530>, 'y': <TAG_Int('y') at 0x7f77fb0a0770>, 'z': <TAG_Int('z') at 0x7f77fb0a0710>, 'id': create:gearshift, 'Source': <TAG_Compound('Source') at 0x7f77fb0a0830>}
+---
+create:factory_panel
+{'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fae52930>, 'x': <TAG_Int('x') at 0x7f77fae527b0>, 'top_left': <TAG_Compound('top_left') at 0x7f77fae529f0>, 'y': <TAG_Int('y') at 0x7f77fae52a50>, 'z': <TAG_Int('z') at 0x7f77fae532f0>, 'Restocker': <TAG_Byte('Restocker') at 0x7f77fae53290>, 'id': create:factory_panel}
+---
+create:gearbox
+{'Speed': <TAG_Float('Speed') at 0x7f77fae76810>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fae76690>, 'Network': <TAG_Compound('Network') at 0x7f77fae768d0>, 'x': <TAG_Int('x') at 0x7f77fae76930>, 'y': <TAG_Int('y') at 0x7f77fae76b70>, 'z': <TAG_Int('z') at 0x7f77fae76b10>, 'id': create:gearbox, 'Source': <TAG_Compound('Source') at 0x7f77fae76c30>}
+---
+create:mechanical_arm
+{'Speed': <TAG_Float('Speed') at 0x7f77fae76e10>, 'Owner': <TAG_Int_Array('Owner') at 0x7f77fb13ff20>, 'Phase': SEARCH_INPUTS, 'InteractionPoints': 13 entries of type TAG_Compound, 'Source': <TAG_Compound('Source') at 0x7f77fae76f30>, 'HeldItem': <TAG_Compound('HeldItem') at 0x7f77fae76c90>, 'MovementProgress': <TAG_Float('MovementProgress') at 0x7f77fae35370>, 'Goggles': <TAG_Byte('Goggles') at 0x7f77fae35490>, 'TargetPointIndex': <TAG_Int('TargetPointIndex') at 0x7f77fae35430>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fae354f0>, 'Network': <TAG_Compound('Network') at 0x7f77fae35550>, 'x': <TAG_Int('x') at 0x7f77fae355b0>, 'y': <TAG_Int('y') at 0x7f77fae35850>, 'ScrollValue': <TAG_Int('ScrollValue') at 0x7f77fae357f0>, 'z': <TAG_Int('z') at 0x7f77fae358b0>, 'id': create:mechanical_arm, 'Powered': <TAG_Byte('Powered') at 0x7f77fae35970>}
+---
+create:rotation_speed_controller
+{'Speed': <TAG_Float('Speed') at 0x7f77faeb7350>, 'Owner': <TAG_Int_Array('Owner') at 0x7f7818dd7ad0>, 'HasAttachedComputer': <TAG_Byte('HasAttachedComputer') at 0x7f77faeb73b0>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77faeb71d0>, 'Network': <TAG_Compound('Network') at 0x7f77faeb7410>, 'x': <TAG_Int('x') at 0x7f77faeb7470>, 'y': <TAG_Int('y') at 0x7f77faeb76b0>, 'ScrollValue': <TAG_Int('ScrollValue') at 0x7f77faeb7650>, 'z': <TAG_Int('z') at 0x7f77faeb7710>, 'id': create:rotation_speed_controller, 'Source': <TAG_Compound('Source') at 0x7f77faeb77d0>}
+---
+create:mechanical_piston
+{'Speed': <TAG_Float('Speed') at 0x7f77faebec30>, 'ExtensionLength': <TAG_Int('ExtensionLength') at 0x7f77faebeb70>, 'Source': <TAG_Compound('Source') at 0x7f77faebec90>, 'Waiting': <TAG_Byte('Waiting') at 0x7f77faebecf0>, 'Offset': <TAG_Float('Offset') at 0x7f77faebeed0>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77faebee70>, 'Network': <TAG_Compound('Network') at 0x7f77faebef30>, 'Running': <TAG_Byte('Running') at 0x7f77faebef90>, 'x': <TAG_Int('x') at 0x7f77faebf230>, 'y': <TAG_Int('y') at 0x7f77faebf1d0>, 'ScrollValue': <TAG_Int('ScrollValue') at 0x7f77faebf290>, 'z': <TAG_Int('z') at 0x7f77faebf2f0>, 'id': create:mechanical_piston}
+---
+create:toolbox
+{'UniqueId': <TAG_Int_Array('UniqueId') at 0x7f77faf00890>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77faf007d0>, 'x': <TAG_Int('x') at 0x7f77faf008f0>, 'y': <TAG_Int('y') at 0x7f77faf00950>, 'z': <TAG_Int('z') at 0x7f77faf009b0>, 'id': create:toolbox, 'Inventory': <TAG_Compound('Inventory') at 0x7f77faf00a70>}
+---
+create:clipboard
+{'Item': <TAG_Compound('Item') at 0x7f77faf363f0>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77faf36330>, 'x': <TAG_Int('x') at 0x7f77faf36750>, 'y': <TAG_Int('y') at 0x7f77faf365d0>, 'z': <TAG_Int('z') at 0x7f77faf367b0>, 'id': create:clipboard}
+---
+create:stock_ticker
+{'PreviousAddress': Output, 'Added': <TAG_Byte('Added') at 0x7f77faf141d0>, 'Categories': 3 entries of type TAG_Compound, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77faf14350>, 'x': <TAG_Int('x') at 0x7f77faf142f0>, 'Freq': <TAG_Int_Array('Freq') at 0x7f77faf17290>, 'y': <TAG_Int('y') at 0x7f77faf161b0>, 'z': <TAG_Int('z') at 0x7f77faf171d0>, 'id': create:stock_ticker, 'HiddenCategories': 0 entries of type _TAG_End, 'Power': <TAG_Int('Power') at 0x7f77faf17350>, 'ReceivedPayments': <TAG_Compound('ReceivedPayments') at 0x7f77faf172f0>}
+---
+create:clutch
+{'Speed': <TAG_Float('Speed') at 0x7f77facfcb30>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77facfc9b0>, 'Network': <TAG_Compound('Network') at 0x7f77facfcbf0>, 'x': <TAG_Int('x') at 0x7f77facfcc50>, 'y': <TAG_Int('y') at 0x7f77facfce90>, 'z': <TAG_Int('z') at 0x7f77facfce30>, 'id': create:clutch, 'Source': <TAG_Compound('Source') at 0x7f77facfcf50>}
+---
+create:cart_assembler
+{'keepPacked': <TAG_Byte('keepPacked') at 0x7f77facfd910>, 'x': <TAG_Int('x') at 0x7f77facfd790>, 'y': <TAG_Int('y') at 0x7f77facfd9d0>, 'ScrollValue': <TAG_Int('ScrollValue') at 0x7f77facfda30>, 'z': <TAG_Int('z') at 0x7f77facfda90>, 'id': create:cart_assembler}
+---
+create:fluid_tank
+{'Window': <TAG_Byte('Window') at 0x7f77facff1d0>, 'Owner': <TAG_Int_Array('Owner') at 0x7f77facff050>, 'Size': <TAG_Int('Size') at 0x7f77facff290>, 'Luminosity': <TAG_Int('Luminosity') at 0x7f77facff2f0>, 'Boiler': <TAG_Compound('Boiler') at 0x7f77facff350>, 'LastKnownPos': <TAG_Compound('LastKnownPos') at 0x7f77facff3b0>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77facff6b0>, 'x': <TAG_Int('x') at 0x7f77facff830>, 'y': <TAG_Int('y') at 0x7f77facff7d0>, 'Height': <TAG_Int('Height') at 0x7f77facff890>, 'z': <TAG_Int('z') at 0x7f77facff8f0>, 'id': create:fluid_tank, 'TankContent': <TAG_Compound('TankContent') at 0x7f77facff9b0>}
+---
+create:crushing_wheel_controller
+{'Speed': <TAG_Float('Speed') at 0x7f77faddeed0>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77faddee10>, 'x': <TAG_Int('x') at 0x7f77faddef30>, 'y': <TAG_Int('y') at 0x7f77faddef90>, 'z': <TAG_Int('z') at 0x7f77faddeff0>, 'id': create:crushing_wheel_controller, 'Inventory': <TAG_Compound('Inventory') at 0x7f77faddf0b0>}
+---
+create:mechanical_pump
+{'Speed': <TAG_Float('Speed') at 0x7f77faddff50>, 'Owner': <TAG_Int_Array('Owner') at 0x7f77faddfe90>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77faddffb0>, 'x': <TAG_Int('x') at 0x7f77fade4050>, 'y': <TAG_Int('y') at 0x7f77fade40b0>, 'z': <TAG_Int('z') at 0x7f77fade4110>, 'up': <TAG_Compound('up') at 0x7f77fade4170>, 'id': create:mechanical_pump, 'down': <TAG_Compound('down') at 0x7f77fade4230>}
+---
+create:steam_engine
+{'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fadf09b0>, 'x': <TAG_Int('x') at 0x7f77fadf0830>, 'y': <TAG_Int('y') at 0x7f77fadf0a10>, 'ScrollValue': <TAG_Int('ScrollValue') at 0x7f77fadf0a70>, 'z': <TAG_Int('z') at 0x7f77fadf0ad0>, 'id': create:steam_engine}
+---
+create:powered_shaft
+{'Speed': <TAG_Float('Speed') at 0x7f77fadf0ef0>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fadf0e30>, 'x': <TAG_Int('x') at 0x7f77fadf0f50>, 'y': <TAG_Int('y') at 0x7f77fadf0fb0>, 'EnginePower': <TAG_Float('EnginePower') at 0x7f77fadf1010>, 'EngineType': create:steam_engine, 'z': <TAG_Int('z') at 0x7f77fadf10d0>, 'id': create:powered_shaft, 'Direction': <TAG_Int('Direction') at 0x7f77fadf1190>, 'EnginePos': <TAG_Compound('EnginePos') at 0x7f77fadf11f0>}
+---
+create:saw
+{'Speed': <TAG_Float('Speed') at 0x7f77fad18e90>, 'Progress': <TAG_Int('Progress') at 0x7f77fad18d10>, 'FilterAmount': <TAG_Int('FilterAmount') at 0x7f77fad18ef0>, 'NextTick': <TAG_Int('NextTick') at 0x7f77fad18f50>, 'Filter': <TAG_Compound('Filter') at 0x7f77fad18fb0>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fad19010>, 'x': <TAG_Int('x') at 0x7f77fad19190>, 'y': <TAG_Int('y') at 0x7f77fad19130>, 'z': <TAG_Int('z') at 0x7f77fad191f0>, 'id': create:saw, 'RecipeIndex': <TAG_Int('RecipeIndex') at 0x7f77fad192b0>, 'Inventory': <TAG_Compound('Inventory') at 0x7f77fad19310>, 'UpTo': <TAG_Byte('UpTo') at 0x7f77fad19370>}
+---
+create:crushing_wheel
+{'Speed': <TAG_Float('Speed') at 0x7f77fad19b50>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fad19a90>, 'x': <TAG_Int('x') at 0x7f77fad19bb0>, 'y': <TAG_Int('y') at 0x7f77fad19c10>, 'z': <TAG_Int('z') at 0x7f77fad19c70>, 'id': create:crushing_wheel}
+---
+create:fluid_pipe
+{'Owner': <TAG_Int_Array('Owner') at 0x7f77fa8f01d0>, 'south': <TAG_Compound('south') at 0x7f77fa8f0170>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fa8f0230>, 'north': <TAG_Compound('north') at 0x7f77fa8f0890>, 'x': <TAG_Int('x') at 0x7f77fa8f0350>, 'y': <TAG_Int('y') at 0x7f77fa8f0c50>, 'z': <TAG_Int('z') at 0x7f77fa8f07d0>, 'id': create:fluid_pipe}
+---
+create:mechanical_press
+{'Speed': <TAG_Float('Speed') at 0x7f77fad74dd0>, 'Finished': <TAG_Byte('Finished') at 0x7f77fad74d10>, 'Owner': <TAG_Int_Array('Owner') at 0x7f77fad74e30>, 'Ticks': <TAG_Int('Ticks') at 0x7f77fad74e90>, 'Mode': <TAG_Int('Mode') at 0x7f77fad74ef0>, 'NeedsUpdate': <TAG_Byte('NeedsUpdate') at 0x7f77fad74f50>, 'TracksCreated': <TAG_Int('TracksCreated') at 0x7f77fad74fb0>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fad75010>, 'Running': <TAG_Byte('Running') at 0x7f77fad75070>, 'x': <TAG_Int('x') at 0x7f77fad75130>, 'y': <TAG_Int('y') at 0x7f77fad750d0>, 'z': <TAG_Int('z') at 0x7f77fad74b90>, 'id': create:mechanical_press}
+---
+create:smart_chute
+{'Pull': <TAG_Float('Pull') at 0x7f77fad780b0>, 'FilterAmount': <TAG_Int('FilterAmount') at 0x7f77fad78050>, 'ItemPosition': <TAG_Float('ItemPosition') at 0x7f77fad78170>, 'Item': <TAG_Compound('Item') at 0x7f77fad781d0>, 'Filter': <TAG_Compound('Filter') at 0x7f77fad78230>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fad78470>, 'BottomAirFlowDistance': <TAG_Float('BottomAirFlowDistance') at 0x7f77fad78f50>, 'x': <TAG_Int('x') at 0x7f77fad78290>, 'y': <TAG_Int('y') at 0x7f77fad78710>, 'z': <TAG_Int('z') at 0x7f77fad78e90>, 'id': create:smart_chute, 'Push': <TAG_Float('Push') at 0x7f77fad78fb0>, 'UpTo': <TAG_Byte('UpTo') at 0x7f77fad79070>}
+---
+create:encased_fan
+{'Speed': <TAG_Float('Speed') at 0x7f77fad2c650>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fad2c4d0>, 'Network': <TAG_Compound('Network') at 0x7f77fad2c710>, 'x': <TAG_Int('x') at 0x7f77fad2c770>, 'y': <TAG_Int('y') at 0x7f77fad2ca10>, 'z': <TAG_Int('z') at 0x7f77fad2c9b0>, 'id': create:encased_fan, 'Source': <TAG_Compound('Source') at 0x7f77fad2cad0>}
+---
+create:mechanical_mixer
+{'Speed': <TAG_Float('Speed') at 0x7f77fad2e510>, 'Ticks': <TAG_Int('Ticks') at 0x7f77fad2e450>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fad2e570>, 'Running': <TAG_Byte('Running') at 0x7f77fad2e5d0>, 'x': <TAG_Int('x') at 0x7f77fad2e630>, 'NeedsUpdate': <TAG_Byte('NeedsUpdate') at 0x7f77fad2e690>, 'y': <TAG_Int('y') at 0x7f77fad2e6f0>, 'z': <TAG_Int('z') at 0x7f77fad2e750>, 'id': create:mechanical_mixer}
+---
+create:basin
+{'FilterAmount': <TAG_Int('FilterAmount') at 0x7f77fad4d130>, 'InputTanks': 2 entries of type TAG_Compound, 'OutputTanks': 2 entries of type TAG_Compound, 'Overflow': 0 entries of type _TAG_End, 'OutputItems': <TAG_Compound('OutputItems') at 0x7f77fad4d2b0>, 'InputItems': <TAG_Compound('InputItems') at 0x7f77fad4d070>, 'Filter': <TAG_Compound('Filter') at 0x7f77fad4dfd0>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fad4df10>, 'DisabledSpoutput': 0 entries of type _TAG_End, 'x': <TAG_Int('x') at 0x7f77fad4e0f0>, 'y': <TAG_Int('y') at 0x7f77fad4e1b0>, 'z': <TAG_Int('z') at 0x7f77fad4e150>, 'id': create:basin, 'UpTo': <TAG_Byte('UpTo') at 0x7f77fad4e210>, 'FluidOverflow': 0 entries of type _TAG_End}
+---
+create:blaze_heater
+{'Goggles': <TAG_Byte('Goggles') at 0x7f77fad50950>, 'fuelLevel': <TAG_Int('fuelLevel') at 0x7f77fad506b0>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fad50890>, 'burnTimeRemaining': <TAG_Int('burnTimeRemaining') at 0x7f77fad50a70>, 'x': <TAG_Int('x') at 0x7f77fad50b30>, 'y': <TAG_Int('y') at 0x7f77fad50b90>, 'z': <TAG_Int('z') at 0x7f77fad50bf0>, 'id': create:blaze_heater}
+---
+create:encased_fluid_pipe
+{'south': <TAG_Compound('south') at 0x7f77fadbf290>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fadbf110>, 'x': <TAG_Int('x') at 0x7f77fadbf7d0>, 'y': <TAG_Int('y') at 0x7f77fadbf3b0>, 'z': <TAG_Int('z') at 0x7f77fadbf650>, 'id': create:encased_fluid_pipe, 'down': <TAG_Compound('down') at 0x7f77fadbf830>}
+---
+create:spout
+{'Owner': <TAG_Int_Array('Owner') at 0x7f77fa846750>, 'Tanks': 1 entries of type TAG_Compound, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fa8467b0>, 'x': <TAG_Int('x') at 0x7f77fa8465d0>, 'ProcessingTicks': <TAG_Int('ProcessingTicks') at 0x7f77fa846d50>, 'y': <TAG_Int('y') at 0x7f77fa846ab0>, 'z': <TAG_Int('z') at 0x7f77fa846bd0>, 'id': create:spout}
+---
+create:smart_fluid_pipe
+{'east': <TAG_Compound('east') at 0x7f77faf4b8f0>, 'Owner': <TAG_Int_Array('Owner') at 0x7f77faf4b710>, 'Filter': <TAG_Compound('Filter') at 0x7f77faf4b9b0>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77faf4b650>, 'west': <TAG_Compound('west') at 0x7f77faf4bcb0>, 'x': <TAG_Int('x') at 0x7f77faf4ba10>, 'y': <TAG_Int('y') at 0x7f77faf4bad0>, 'FilterAmount': <TAG_Int('FilterAmount') at 0x7f77faf4b950>, 'z': <TAG_Int('z') at 0x7f77faf4bb90>, 'id': create:smart_fluid_pipe, 'UpTo': <TAG_Byte('UpTo') at 0x7f77faf4bb30>}
+---
+create:brass_tunnel
+{'DistanceLeft': <TAG_Int('DistanceLeft') at 0x7f77faf56f30>, 'FilteredTargets': 1 entries of type TAG_Compound, 'DistributionProgress': <TAG_Float('DistributionProgress') at 0x7f77faf56ff0>, 'SyncedOutput': <TAG_Byte('SyncedOutput') at 0x7f77faf56db0>, 'Targets': 0 entries of type _TAG_End, 'FilterAmount': <TAG_Int('FilterAmount') at 0x7f77faf572f0>, 'ConnectedRight': <TAG_Byte('ConnectedRight') at 0x7f77faf57290>, 'Flaps': 2 entries of type TAG_Int, 'Filters': 2 entries of type TAG_Compound, 'StackToDistribute': <TAG_Compound('StackToDistribute') at 0x7f77faf57350>, 'DistanceRight': <TAG_Int('DistanceRight') at 0x7f77faf573b0>, 'Filter': <TAG_Compound('Filter') at 0x7f77fa84c3b0>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fa84c290>, 'x': <TAG_Int('x') at 0x7f77fa84c5f0>, 'y': <TAG_Int('y') at 0x7f77fa84c4d0>, 'ConnectedLeft': <TAG_Byte('ConnectedLeft') at 0x7f77fa84c530>, 'ScrollValue': <TAG_Int('ScrollValue') at 0x7f77fa84c650>, 'z': <TAG_Int('z') at 0x7f77fa84c6b0>, 'id': create:brass_tunnel, 'Sides': 2 entries of type TAG_Int, 'UpTo': <TAG_Byte('UpTo') at 0x7f77fa84c7d0>, 'PreviousIndex': <TAG_Int('PreviousIndex') at 0x7f77fa84c770>}
+---
+create:content_observer
+{'Filter': <TAG_Compound('Filter') at 0x7f77fa8a6db0>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fa8a6d50>, 'x': <TAG_Int('x') at 0x7f77fa8a6510>, 'y': <TAG_Int('y') at 0x7f77fa8a6450>, 'FilterAmount': <TAG_Int('FilterAmount') at 0x7f77fa8a6630>, 'z': <TAG_Int('z') at 0x7f77fa8a6e70>, 'id': create:content_observer, 'TurnOff': <TAG_Int('TurnOff') at 0x7f77fa8a6ed0>, 'UpTo': <TAG_Byte('UpTo') at 0x7f77fa8a7110>}
+---
+create:pulse_repeater
+{'State': <TAG_Int('State') at 0x7f77fa8a8290>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fa8a81d0>, 'x': <TAG_Int('x') at 0x7f77fa8a82f0>, 'y': <TAG_Int('y') at 0x7f77fa8a8350>, 'ScrollValue': <TAG_Int('ScrollValue') at 0x7f77fa8a83b0>, 'z': <TAG_Int('z') at 0x7f77fa8a8410>, 'id': create:pulse_repeater}
+---
+create:portable_storage_interface
+{'Timer': <TAG_Int('Timer') at 0x7f77fa8aaff0>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fa8aae70>, 'x': <TAG_Int('x') at 0x7f77fa8ab050>, 'y': <TAG_Int('y') at 0x7f77fa8ab0b0>, 'z': <TAG_Int('z') at 0x7f77fa8ab110>, 'id': create:portable_storage_interface, 'Powered': <TAG_Byte('Powered') at 0x7f77fa8ab1d0>, 'Distance': <TAG_Float('Distance') at 0x7f77fa8ab230>}
+---
+create:display_link
+{'TargetOffset': <TAG_Compound('TargetOffset') at 0x7f77fa8ab350>, 'Owner': <TAG_Int_Array('Owner') at 0x7f77fa8ab290>, 'HasAttachedComputer': <TAG_Byte('HasAttachedComputer') at 0x7f77fa8ab530>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fa8ab4d0>, 'x': <TAG_Int('x') at 0x7f77fa8ab590>, 'y': <TAG_Int('y') at 0x7f77fa8ab5f0>, 'TargetLine': <TAG_Int('TargetLine') at 0x7f77fa8ab650>, 'z': <TAG_Int('z') at 0x7f77fa8ab6b0>, 'id': create:display_link, 'Source': <TAG_Compound('Source') at 0x7f77fa8ab770>}
+---
+create:adjustable_chain_gearshift
+{'Speed': <TAG_Float('Speed') at 0x7f77fa753710>, 'Signal': <TAG_Int('Signal') at 0x7f77fa753590>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fa7537d0>, 'Network': <TAG_Compound('Network') at 0x7f77fa753830>, 'x': <TAG_Int('x') at 0x7f77fa753890>, 'y': <TAG_Int('y') at 0x7f77fa753ad0>, 'z': <TAG_Int('z') at 0x7f77fa753a70>, 'id': create:adjustable_chain_gearshift, 'Source': <TAG_Compound('Source') at 0x7f77fa753b90>}
+---
+create:andesite_tunnel
+{'Flaps': 2 entries of type TAG_Int, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fa7695b0>, 'x': <TAG_Int('x') at 0x7f77fa769670>, 'y': <TAG_Int('y') at 0x7f77fa769790>, 'z': <TAG_Int('z') at 0x7f77fa7697f0>, 'id': create:andesite_tunnel, 'Sides': 2 entries of type TAG_Int}
+---
+create:glass_fluid_pipe
+{'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fa7ee810>, 'x': <TAG_Int('x') at 0x7f77fa7ee690>, 'y': <TAG_Int('y') at 0x7f77fa7ee8d0>, 'z': <TAG_Int('z') at 0x7f77fa7ee930>, 'up': <TAG_Compound('up') at 0x7f77fa7ee990>, 'id': create:glass_fluid_pipe, 'down': <TAG_Compound('down') at 0x7f77fa7eea50>}
+---
+create:mechanical_crafter
+{'ConnectedInput': <TAG_Compound('ConnectedInput') at 0x7f77fa7f1730>, 'Speed': <TAG_Float('Speed') at 0x7f77fa7f1670>, 'Phase': IDLE, 'CountDown': <TAG_Int('CountDown') at 0x7f77fa7f17f0>, 'Source': <TAG_Compound('Source') at 0x7f77fa7f19d0>, 'GroupedItems': <TAG_Compound('GroupedItems') at 0x7f77fa7f1a90>, 'Cover': <TAG_Byte('Cover') at 0x7f77fa7f1c70>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fa7f1cd0>, 'Network': <TAG_Compound('Network') at 0x7f77fa7f1c10>, 'x': <TAG_Int('x') at 0x7f77fa7f1d30>, 'y': <TAG_Int('y') at 0x7f77fa7f1fd0>, 'z': <TAG_Int('z') at 0x7f77fa7f1f70>, 'id': create:mechanical_crafter, 'Inventory': <TAG_Compound('Inventory') at 0x7f77fa7f2090>}
+---
+create:repackager
+{'InsertedBox': <TAG_Compound('InsertedBox') at 0x7f77faa0b470>, 'SignAddress': , 'QueuedExitingPackages': 0 entries of type _TAG_End, 'HeldBox': <TAG_Compound('HeldBox') at 0x7f77faa0b590>, 'AnimationInward': <TAG_Byte('AnimationInward') at 0x7f77faa0b5f0>, 'LastSummary': <TAG_Compound('LastSummary') at 0x7f77faa0b770>, 'Active': <TAG_Byte('Active') at 0x7f77faa0b710>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77faa0b830>, 'AnimationTicks': <TAG_Int('AnimationTicks') at 0x7f77faa0b7d0>, 'x': <TAG_Int('x') at 0x7f77faa0b890>, 'y': <TAG_Int('y') at 0x7f77faa0b8f0>, 'z': <TAG_Int('z') at 0x7f77faa0b950>, 'id': create:repackager}
+---
+create:pulse_extender
+{'State': <TAG_Int('State') at 0x7f77faa1d010>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77faa1cf50>, 'x': <TAG_Int('x') at 0x7f77faa1d070>, 'y': <TAG_Int('y') at 0x7f77faa1d0d0>, 'ScrollValue': <TAG_Int('ScrollValue') at 0x7f77faa1d130>, 'z': <TAG_Int('z') at 0x7f77faa1d190>, 'id': create:pulse_extender}
+---
+create:drill
+{'NextTick': <TAG_Int('NextTick') at 0x7f77faaa3050>, 'Speed': <TAG_Float('Speed') at 0x7f77faaa2cf0>, 'Progress': <TAG_Int('Progress') at 0x7f77faaa3110>, 'Breaking': <TAG_Compound('Breaking') at 0x7f77faaa2ed0>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77faaa30b0>, 'x': <TAG_Int('x') at 0x7f77faaa33b0>, 'y': <TAG_Int('y') at 0x7f77faaa32f0>, 'z': <TAG_Int('z') at 0x7f77faaa3170>, 'id': create:drill}
+---
+create:millstone
+{'InputInventory': <TAG_Compound('InputInventory') at 0x7f77fa790f50>, 'Speed': <TAG_Float('Speed') at 0x7f77fa790e90>, 'OutputInventory': <TAG_Compound('OutputInventory') at 0x7f77fa790fb0>, 'Timer': <TAG_Int('Timer') at 0x7f77fa791070>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fa7912b0>, 'x': <TAG_Int('x') at 0x7f77fa791310>, 'y': <TAG_Int('y') at 0x7f77fa791550>, 'z': <TAG_Int('z') at 0x7f77fa7914f0>, 'id': create:millstone}
+---
+create:chassis
+{'keepPacked': <TAG_Byte('keepPacked') at 0x7f77faa93050>, 'x': <TAG_Int('x') at 0x7f77faa92f30>, 'y': <TAG_Int('y') at 0x7f77faa930b0>, 'ScrollValue': <TAG_Int('ScrollValue') at 0x7f77faa93110>, 'z': <TAG_Int('z') at 0x7f77faa93170>, 'id': create:chassis}
+---
+create:weighted_ejector
+{'Speed': <TAG_Float('Speed') at 0x7f77faae9cd0>, 'HorizontalDistance': <TAG_Int('HorizontalDistance') at 0x7f77faae96d0>, 'EarlyTargetTime': <TAG_Float('EarlyTargetTime') at 0x7f77faae9eb0>, 'Lid': <TAG_Compound('Lid') at 0x7f77faae9fd0>, 'VerticalDistance': <TAG_Int('VerticalDistance') at 0x7f77faaea090>, 'OutputBuffer': <TAG_Compound('OutputBuffer') at 0x7f77faae9f70>, 'EarlyTargetPos': <TAG_Compound('EarlyTargetPos') at 0x7f77faae9df0>, 'EarlyTarget': 3 entries of type TAG_Double, 'State': CHARGED, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77faaea270>, 'x': <TAG_Int('x') at 0x7f77faaea210>, 'y': <TAG_Int('y') at 0x7f77faaea5d0>, 'ScrollValue': <TAG_Int('ScrollValue') at 0x7f77faaea510>, 'z': <TAG_Int('z') at 0x7f77faaea390>, 'id': create:weighted_ejector, 'Powered': <TAG_Byte('Powered') at 0x7f77faaea570>, 'LaunchedItems': 0 entries of type _TAG_End}
+---
+create:item_drain
+{'HeldItem': <TAG_Compound('HeldItem') at 0x7f77fac41490>, 'Owner': <TAG_Int_Array('Owner') at 0x7f77fac41370>, 'Tanks': 1 entries of type TAG_Compound, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fac41af0>, 'x': <TAG_Int('x') at 0x7f77fac418b0>, 'ProcessingTicks': <TAG_Int('ProcessingTicks') at 0x7f77fac41e50>, 'y': <TAG_Int('y') at 0x7f77fac41d30>, 'z': <TAG_Int('z') at 0x7f77fac41c10>, 'id': create:item_drain}
+---
+create:flap_display
+{'Speed': <TAG_Float('Speed') at 0x7f77fa91c470>, 'XSize': <TAG_Int('XSize') at 0x7f77fa91c3b0>, 'Controller': <TAG_Byte('Controller') at 0x7f77fa91c4d0>, 'Source': <TAG_Compound('Source') at 0x7f77fa91c530>, 'Display0': <TAG_Compound('Display0') at 0x7f77fa91c590>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fa91c770>, 'Network': <TAG_Compound('Network') at 0x7f77fa91c9b0>, 'YSize': <TAG_Int('YSize') at 0x7f77fa91c7d0>, 'Display1': <TAG_Compound('Display1') at 0x7f77fa91cb90>, 'x': <TAG_Int('x') at 0x7f77fa91cb30>, 'y': <TAG_Int('y') at 0x7f77fa91ce30>, 'z': <TAG_Int('z') at 0x7f77fa91cc50>, 'id': create:flap_display}
+---
+create:harvester
+{'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fa91fa70>, 'x': <TAG_Int('x') at 0x7f77fa91f8f0>, 'y': <TAG_Int('y') at 0x7f77fa91fad0>, 'z': <TAG_Int('z') at 0x7f77fa91fb30>, 'id': create:harvester}
+---
+create:mechanical_bearing
+{'Speed': <TAG_Float('Speed') at 0x7f77fa956c90>, 'Angle': <TAG_Float('Angle') at 0x7f77fa956bd0>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77fa956cf0>, 'Running': <TAG_Byte('Running') at 0x7f77fa956d50>, 'x': <TAG_Int('x') at 0x7f77fa956db0>, 'y': <TAG_Int('y') at 0x7f77fa956e10>, 'ScrollValue': <TAG_Int('ScrollValue') at 0x7f77fa956e70>, 'z': <TAG_Int('z') at 0x7f77fa956ed0>, 'id': create:mechanical_bearing}
+---
+create:stockpile_switch
+{'CurrentMinAmount': <TAG_Int('CurrentMinAmount') at 0x7f77f9b4e030>, 'CurrentMaxAmount': <TAG_Int('CurrentMaxAmount') at 0x7f77f9b4dc70>, 'InStacks': <TAG_Byte('InStacks') at 0x7f77f9b4e330>, 'OnAboveAmount': <TAG_Float('OnAboveAmount') at 0x7f77f9b4e450>, 'FilterAmount': <TAG_Int('FilterAmount') at 0x7f77f9b4e510>, 'CurrentAmount': <TAG_Int('CurrentAmount') at 0x7f77f9b4e570>, 'Filter': <TAG_Compound('Filter') at 0x7f77f9b4e5d0>, 'Inverted': <TAG_Byte('Inverted') at 0x7f77f9b4e630>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77f9b4e7b0>, 'x': <TAG_Int('x') at 0x7f77f9b4e750>, 'OffBelowAmount': <TAG_Float('OffBelowAmount') at 0x7f77f9b4e810>, 'y': <TAG_Int('y') at 0x7f77f9b4e870>, 'z': <TAG_Int('z') at 0x7f77f9b4e8d0>, 'id': create:stockpile_switch, 'Powered': <TAG_Byte('Powered') at 0x7f77f9b4e990>, 'PoweredAfterDelay': <TAG_Byte('PoweredAfterDelay') at 0x7f77f9b4e9f0>, 'UpTo': <TAG_Byte('UpTo') at 0x7f77f9b4ea50>}
+---
+create:stressometer
+{'Speed': <TAG_Float('Speed') at 0x7f77f9bf5910>, 'HasAttachedComputer': <TAG_Byte('HasAttachedComputer') at 0x7f77f9bf5850>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77f9bf5970>, 'Color': <TAG_Int('Color') at 0x7f77f9bf59d0>, 'Value': <TAG_Float('Value') at 0x7f77f9bf5a30>, 'x': <TAG_Int('x') at 0x7f77f9bf5a90>, 'y': <TAG_Int('y') at 0x7f77f9bf5af0>, 'z': <TAG_Int('z') at 0x7f77f9bf5b50>, 'id': create:stressometer}
+---
+create:sequenced_gearshift
+{'Speed': <TAG_Float('Speed') at 0x7f77f9c3ac90>, 'InstructionIndex': <TAG_Int('InstructionIndex') at 0x7f77f9c3abd0>, 'Instructions': 5 entries of type TAG_Compound, 'Timer': <TAG_Int('Timer') at 0x7f77f9c3ad50>, 'InstructionDuration': <TAG_Int('InstructionDuration') at 0x7f77f9c3acf0>, 'HasAttachedComputer': <TAG_Byte('HasAttachedComputer') at 0x7f77f9c3b530>, 'keepPacked': <TAG_Byte('keepPacked') at 0x7f77f9c3b590>, 'x': <TAG_Int('x') at 0x7f77f9c3b5f0>, 'y': <TAG_Int('y') at 0x7f77f9c3b470>, 'z': <TAG_Int('z') at 0x7f77f9c3b650>, 'id': create:sequenced_gearshift, 'InstructionProgress': <TAG_Float('InstructionProgress') at 0x7f77f9c38290>, 'PrevPowered': <TAG_Byte('PrevPowered') at 0x7f77f9c3b6b0>}
+---
