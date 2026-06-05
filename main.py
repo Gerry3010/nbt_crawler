@@ -7,6 +7,7 @@ from nbtlib import nbt
 from block_entities import parse_entities
 from config import get_minecraft_path
 from players import load_usercache, list_players, get_player_position
+from barrel_writer import fill_barrels, find_fb_barrels
 from region_io import convert_all_quark_chests
 from regions import scan_world_radius
 from saves import get_saves, get_saves_path
@@ -103,8 +104,9 @@ def main():
         # 6. Quark Chests konvertieren
         convert_all_quark_chests(selected_world, parsed)
 
-        # 7. Create Filter → Barrels (kommt noch)
-        print("\n🔨 Barrel-Writer kommt noch...")
+        # 7. Create Filter → FB-Barrels schreiben
+        fb_barrels = find_fb_barrels(all_entities, x, z)
+        fill_barrels(selected_world, fb_barrels, parsed)
 
     except Exception as e:
         print(f"❌ Fehler: {e}")

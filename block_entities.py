@@ -12,7 +12,8 @@ CREATE_FILTER_IDS = {
 }
 
 FILTER_COMPOUND_IDS = {
-    "create:brass_tunnel"
+    "create:brass_tunnel",
+    "create:brass_funnel",
     "create:funnel",
     "create:basin",
     "create:depot",
@@ -52,11 +53,17 @@ def parse_filter_item(be_nbt: dict) -> list[dict]:
     if item_id == "minecraft:air":
         return []
 
-    return [{
-        "id": filter_tag["id"].value,
-        "count": filter_tag.get("count", 1),  # Filter hat oft keine Count
-        "slot": 0,
-    }]
+    # Alle Filter-Items zurückgeben:
+    # return [{
+    #     "id": filter_tag["id"].value,
+    #     "count": filter_tag.get("count", 1),
+    #     "slot": 0,
+    # }]
+
+    # Nur create:filter Items (komplettes Item wird später per nbtlib gelesen):
+    if item_id != "create:filter":
+        return []
+    return [{"id": item_id, "slot": 0, "source_field": "Filter"}]
 
 
 def parse_held_item(be_nbt: dict) -> list[dict]:
@@ -69,11 +76,17 @@ def parse_held_item(be_nbt: dict) -> list[dict]:
     if item_id == "minecraft:air":
         return []
 
-    return [{
-        "id": held["id"].value,
-        "count": held.get("Count", 1),
-        "slot": 0,
-    }]
+    # Alle HeldItems zurückgeben:
+    # return [{
+    #     "id": held["id"].value,
+    #     "count": held.get("Count", 1),
+    #     "slot": 0,
+    # }]
+
+    # Nur create:filter Items:
+    if item_id != "create:filter":
+        return []
+    return [{"id": item_id, "slot": 0, "source_field": "HeldItem"}]
 
 
 def parse_inventory_compound(be_nbt: dict) -> list[dict]:
@@ -118,8 +131,9 @@ def parse_entities(all_entities: list[dict]) -> list[dict]:
                     deduped_items.append(item)
             items = deduped_items
 
-        elif eid in INVENTORY_COMPOUND_IDS:
-            items = parse_inventory_compound(nbt)
+        # elif eid in INVENTORY_COMPOUND_IDS:
+        #     items = parse_inventory_compound(nbt)
+
         else:
             continue
 
@@ -191,50 +205,3 @@ def convert_quark_chests(
         # anvil-parser2 kann einzelne Chunks zurückschreiben?
 
 
-#
-# Barrels
-#
-
-import json
-
-def find_fb_barrels(all_entities: list[dict], player_x: float, player_z: float) -> list[dict]:
-    """
-    Findet alle minecraft:barrel Block Entities die ein FB-Sign direkt darüber haben.
-    Sortiert nach Distanz zur Logout-Position.
-    """
-
-    # Signs und Barrels separat sammeln
-    signs = {}   # (x, y, z) → nbt
-    barrels = [] # list of {x, y, z}
-
-    for entity in all_entities:
-        eid = entity["id"]
-        x, y, z = entity["x"], entity["y"], entity["z"]
-
-        if eid == "minecraft:barrel":
-            barrels.append({"x": x, "y": y, "z": z})
-
-        elif "sign" in eid:  # oak_sign, spruce_sign, etc.
-            try:
-                front = entity["nbt"]["front_text"]
-                messages = front["messages"]
-                line1 = json.loads(str(messages[0]))
-                if line1.get("text", "").strip() == "FB":
-                    signs[(x, y, z)] = entity["nbt"]
-            except Exception:
-                continue
-
-    # Barrels mit FB-Sign direkt darüber filtern
-    fb_barrels = []
-    for barrel in barrels:
-        sign_pos = (barrel["x"], barrel["y"] + 1, barrel["z"])
-        if sign_pos in signs:
-            fb_barrels.append(barrel)
-
-    # Nach Distanz zur Logout-Position sortieren (cbrt dist)
-    fb_barrels.sort(key=lambda b: (
-        (b["x"] - player_x) ** 2 + (b["z"] - player_z) ** 2
-    ) ** 0.5)
-
-    print(f"🛢️  {len(fb_barrels)} FB-Barrels gefunden!")
-    return fb_barrels
