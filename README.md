@@ -46,5 +46,9 @@ Das Skript wird dich durch folgende Schritte führen:
 - `barrel_writer.py`: Spezielle Logik für Functional Storage Barrels.
 - `saves.py` & `config.py`: Hilfsfunktionen für Welt-Auswahl und Pfade.
 
+## Lizenz
+
+Dieses Projekt steht unter der [MIT-Lizenz](LICENSE).
+
 ## Hinweis
 **Wichtig:** Erstelle immer ein Backup deiner Welt, bevor du dieses Tool benutzt! Die direkte Manipulation von NBT-Daten kann bei Fehlern zu Welt-Korruption führen.
